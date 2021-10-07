@@ -1,0 +1,9 @@
+/* Осн. цвет #2196F3 (голубой) */
+/* цвет футера #2F303A */
+:root {
+    --brend-color: #2196F3;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(33, 33, 33, 1);
+}
