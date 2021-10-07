@@ -1,31 +1,22 @@
 /* Осн. цвет #2196F3 (голубой) */
 /* цвет футера #2F303A */
 :root {
-    --brend-color: #2196F3;
-}
-body {
-    font-family: 'Roboto', normal;
-    color: rgba(33, 33, 33, 1);
-    width: 1600px;
-}
-header {
-    background-color: rgba(255, 255, 255, 1);
-    height: 80px;
-}
-.logo {
-    font-family: 'Raleway', normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: rgba(0, 0, 0, 1);
-    text-decoration: none;
+    --accent-color: #2196F3;
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --light-text-color: #FFFFFF;
+    --footer-contacts-color: rgba(255, 255, 255, 0,6);
 
 }
-.web {
-    color: var(--brend-color);
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #212121;
 }
-.first-block {
-    height: 600px;
-    background-color: rgba(47, 48, 58, 1);
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
 }
