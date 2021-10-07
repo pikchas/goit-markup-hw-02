@@ -4,6 +4,28 @@
     --brend-color: #2196F3;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', normal;
     color: rgba(33, 33, 33, 1);
+    width: 1600px;
+}
+header {
+    background-color: rgba(255, 255, 255, 1);
+    height: 80px;
+}
+.logo {
+    font-family: 'Raleway', normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+
+}
+.web {
+    color: var(--brend-color);
+}
+.first-block {
+    height: 600px;
+    background-color: rgba(47, 48, 58, 1);
 }
