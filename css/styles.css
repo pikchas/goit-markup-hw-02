@@ -75,7 +75,7 @@ body {
 }
 .btn {
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     align-items: center;
@@ -85,6 +85,7 @@ body {
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 .btn:hover, .btn.focus {
     color: #188CE8;
@@ -102,7 +103,6 @@ body {
     color: var(--primary-text-color);
 }
 .heading-text {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -142,7 +142,6 @@ body {
     color: var(--primary-text-color);
 }
 .team-about {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -155,14 +154,12 @@ body {
 }
 
 .footer-link-maps {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .footer-link {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -180,6 +177,7 @@ body {
     border-radius: 4px;
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 .project-button:hover, .project-button:focus {
     color: #ffffff;
@@ -202,7 +200,6 @@ body {
     color: var(--primary-text-color);
 }
 .project-about {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
